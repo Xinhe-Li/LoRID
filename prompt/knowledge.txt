@@ -1,0 +1,17 @@
+// Instruction
+Given a math problem, it is overly complicated and lacks clear knowledge for students to grasp. Your task is to summarize the general solving rules to assist students.
+Important notes:
+1. The rules summarized are general and not tailored to specific questions.
+2. The rules summarized should not contain any semantic information from the questions.
+3. The rules summarized should map complete reasoning steps for solving the questions.
+
+Use the following format for output:
+{
+    "output": [
+        "<rule1>",
+        ...
+    ]
+}
+
+// Input
+<input>
