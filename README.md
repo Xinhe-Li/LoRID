@@ -1,12 +1,12 @@
 # LoRID
 
 <p align="center">
-📃 <a href="" target="_blank">Paper</a> • 💻 <a href="https://github.com/Xinhe-Li/LoRID" target="_blank">Code</a> • 🤗 <a href="https://huggingface.co/LoRID-Math" target="_blank">HF Repo</a><br>
+📃 <a href="https://arxiv.org/abs/2508.13037" target="_blank">Paper</a> • 💻 <a href="https://github.com/Xinhe-Li/LoRID" target="_blank">Code</a> • 🤗 <a href="https://huggingface.co/LoRID-Math" target="_blank">HF Repo</a><br>
 </p>
 
 ## Abstract
 
-The codes and datasets for "[Can Large Models Teach Student Models to Solve Mathematical Problems Like Human Beings? A Reasoning Distillation Method via Multi-LoRA Interaction]()" [IJCAI 2025].
+The codes and datasets for "[Can Large Models Teach Student Models to Solve Mathematical Problems Like Human Beings? A Reasoning Distillation Method via Multi-LoRA Interaction](https://arxiv.org/abs/2508.13037)" [IJCAI 2025].
 
 ![](assets/framework.svg)
 
@@ -50,12 +50,12 @@ cd ..
 | 🤗 [LoRID-GSM8K-Mistral-7B-IR](https://huggingface.co/LoRID-Math/GSM8K-Mistral-7B-IR) | Intuitive Reasoner  | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 0.785 |
 | 🤗 [LoRID-GSM8K-Mistral-7B-KG](https://huggingface.co/LoRID-Math/GSM8K-Mistral-7B-KG) | Knowledge Generator | 🤗 [LoRID-GSM8K](https://huggingface.co/datasets/LoRID-Math/GSM8K) | [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 0.785 |
 | 🤗 [LoRID-GSM8K-Mistral-7B-DR](https://huggingface.co/LoRID-Math/GSM8K-Mistral-7B-DR) | Deep Reasoner       | 🤗 [LoRID-GSM8K](https://huggingface.co/datasets/LoRID-Math/GSM8K) | [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 0.785 |
-| 🤗 [LoRID-MATH-LLaMA-2-7B-IR]()                               | Intuitive Reasoner  | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | [LLaMA-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) | 0.203 |
-| 🤗 [LoRID-MATH-LLaMA-2-7B-KG]()                               | Knowledge Generator | 🤗 [LoRID-MATH](https://huggingface.co/datasets/LoRID-Math/MATH) | [LLaMA-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) | 0.203 |
-| 🤗 [LoRID-MATH-LLaMA-2-7B-DR]()                               | Deep Reasoner       | 🤗 [LoRID-MATH](https://huggingface.co/datasets/LoRID-Math/MATH) | [LLaMA-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) | 0.203 |
-| 🤗 [LoRID-MATH-Mistral-7B-IR]()                               | Intuitive Reasoner  | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 0.316 |
-| 🤗 [LoRID-MATH-Mistral-7B-KG]()                               | Knowledge Generator | 🤗 [LoRID-MATH](https://huggingface.co/datasets/LoRID-Math/MATH) | [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 0.316 |
-| 🤗 [LoRID-MATH-Mistral-7B-DR]()                               | Deep Reasoner       | 🤗 [LoRID-MATH](https://huggingface.co/datasets/LoRID-Math/MATH) | [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 0.316 |
+| 🤗 [LoRID-MATH-LLaMA-2-7B-IR](https://huggingface.co/LoRID-Math/MATH-LLaMA-2-7B-IR) | Intuitive Reasoner  | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | [LLaMA-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) | 0.203 |
+| 🤗 [LoRID-MATH-LLaMA-2-7B-KG](https://huggingface.co/LoRID-Math/MATH-LLaMA-2-7B-KG) | Knowledge Generator | 🤗 [LoRID-MATH](https://huggingface.co/datasets/LoRID-Math/MATH) | [LLaMA-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) | 0.203 |
+| 🤗 [LoRID-MATH-LLaMA-2-7B-DR](https://huggingface.co/LoRID-Math/MATH-LLaMA-2-7B-DR) | Deep Reasoner       | 🤗 [LoRID-MATH](https://huggingface.co/datasets/LoRID-Math/MATH) | [LLaMA-2-7B](https://huggingface.co/meta-llama/Llama-2-7b-hf) | 0.203 |
+| 🤗 [LoRID-MATH-Mistral-7B-IR](https://huggingface.co/LoRID-Math/MATH-Mistral-7B-IR) | Intuitive Reasoner  | [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA) | [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 0.316 |
+| 🤗 [LoRID-MATH-Mistral-7B-KG](https://huggingface.co/LoRID-Math/MATH-Mistral-7B-KG) | Knowledge Generator | 🤗 [LoRID-MATH](https://huggingface.co/datasets/LoRID-Math/MATH) | [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 0.316 |
+| 🤗 [LoRID-MATH-Mistral-7B-DR](https://huggingface.co/LoRID-Math/MATH-Mistral-7B-DR) | Deep Reasoner       | 🤗 [LoRID-MATH](https://huggingface.co/datasets/LoRID-Math/MATH) | [Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1) | 0.316 |
 
 > [!NOTE]
 > For the Intuition Reasoner, we only release the LoRA weights based on [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA). You can also leverage [RFT](https://github.com/OFA-Sys/gsm8k-ScRel/tree/main/data/rft), [MuMath](https://huggingface.co/datasets/weihao1/MuMath), [MuggleMath](https://github.com/OFA-Sys/gsm8k-ScRel/tree/main/data/MuggleMATH), or other datasets to further improve LoRID performance. Detailed results are provided in our paper.
@@ -154,7 +154,15 @@ Accuracy results (%) of the compared methods on GSM8K and MATH datasets (ICL: In
 If this work is helpful, please kindly cite as:
 
 ```bibtex
-
+@misc{li2025largemodelsteachstudent,
+      title={Can Large Models Teach Student Models to Solve Mathematical Problems Like Human Beings? A Reasoning Distillation Method via Multi-LoRA Interaction}, 
+      author={Xinhe Li and Jiajun Liu and Peng Wang},
+      year={2025},
+      eprint={2508.13037},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.13037}, 
+}
 ```
 
 ## License
