@@ -1,8 +1,6 @@
-# LoRID
+# LoRID: A Reasoning Distillation Method via Multi-LoRA Interaction
 
-<p align="center">
-📃 <a href="https://arxiv.org/abs/2508.13037" target="_blank">Paper</a> • 💻 <a href="https://github.com/Xinhe-Li/LoRID" target="_blank">Code</a> • 🤗 <a href="https://huggingface.co/LoRID-Math" target="_blank">HF Repo</a><br>
-</p>
+📃 [Paper](https://arxiv.org/abs/2508.13037) • 💻 [Code](https://github.com/Xinhe-Li/LoRID) • 🤗 [HF Repo](https://huggingface.co/LoRID-Math)
 
 ## Abstract
 
@@ -77,7 +75,7 @@ bash examples/gsm8k/gen_data.sh
 > [!NOTE]
 > Replace the values of `OPENAI_API_BASE` and `OPENAI_API_KEY` in [gen_data.sh](examples/gsm8k/gen_data.sh) according to your own setup. The file specified by the `--raw_dataset_path` must contain at least the keys `id`, `question`, and `rationale`. These can be easily extracted from the [GSM8K](https://huggingface.co/datasets/openai/gsm8k) or [MATH](https://huggingface.co/datasets/EleutherAI/hendrycks_math) datasets, but you are also free to experiment with others.
 >
-> In our experiments, to increase the amount of training data, we map the generated knowledge to entries in [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA), resulting in two datasets: 🤗 [LoRIA-GSM8K](https://huggingface.co/datasets/LoRID-Math/GSM8K) and 🤗 [LoRID-MATH](https://huggingface.co/datasets/LoRID-Math/MATH).
+> In our experiments, to increase the amount of training data, we map the generated knowledge to entries in [MetaMathQA](https://huggingface.co/datasets/meta-math/MetaMathQA), resulting in two datasets: 🤗 [LoRIA-GSM8K](https://huggingface.co/datasets/LoRID-Math/GSM8K) and 🤗 [LoRID-MATH](https://huggingface.co/datasets/LoRID-Math/MATH). A small sample of them is available in the [`datasets/`](datasets/) folder for quick reference and testing.
 
 ### Training
 
